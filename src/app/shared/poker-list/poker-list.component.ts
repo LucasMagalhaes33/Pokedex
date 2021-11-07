@@ -14,7 +14,7 @@ export class PokerListComponent implements OnInit {
 
   ngOnInit(): void {
     this.pokeApiService.apiListAllPokemons.subscribe(
-      res => res
+      res => console.log(res)
     )
 
   }
