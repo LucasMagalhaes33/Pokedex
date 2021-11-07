@@ -17,10 +17,10 @@
 
             font-size: rem-calc(18);
 
-            color: var(--white);
+            color: var(--secondary-color);
 
             &::placeholder {
-                color: var(--white);
+                color: var(--secondary-color);
             }
         }
     }
