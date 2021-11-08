@@ -15,7 +15,7 @@
 			padding: 0 rem-calc(30);
 
 			h1 {
-				color: var(--white);
+				color: var(--secondary-color);
 				font-size: rem-calc(32);
 				text-transform: capitalize;
 			}
@@ -26,13 +26,6 @@
 				top: 0;
 				font-size: rem-calc(60);
 				color: rgba(255, 255, 255, 0.1);
-			}
-
-			h1,
-			h2 {
-				//Remove Bug Animation
-				-webkit-animation-fill-mode: none !important;
-				animation-fill-mode: none !important;
 			}
 		}
 
